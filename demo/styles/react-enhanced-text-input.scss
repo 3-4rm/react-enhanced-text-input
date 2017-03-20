@@ -1,0 +1,121 @@
+.style-1 {
+    position: relative;
+}
+
+.style-1 .input{
+    position: relative;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    width: 100%;
+    font-size: 20px;
+}
+
+.style-1 .input:focus{
+    border-bottom: 2px solid blue;
+}
+
+.style-1 .fph{
+    top: 0px;
+    left: 0px;
+    transition: 0.1s ease-in-out;
+    position: absolute;
+    font-size: 20px;
+}
+
+.style-1 .fph span:nth-child(1){
+  color: red;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.style-1 .fph span:nth-child(2){
+  color: gray;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.style-1 .fph span:nth-child(3){
+  color: green;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.style-1 .fph-label {
+    top: -20px;
+    font-size: 16px;
+}
+
+
+
+
+.style-2 {
+    position: relative;
+}
+
+.style-2 .input{
+    position: relative;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    width: 100%;
+    font-size: 20px;
+}
+
+.style-2 .input:focus{
+    border-bottom: 2px solid blue;
+}
+
+.style-2 .fph{
+    top: 0px;
+    left: 0px;
+    transition: 0.1s ease-in-out;
+    position: absolute;
+    font-size: 20px;
+}
+
+.style-2 .fph span:nth-child(1){
+  color: red;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.style-2 .fph span:nth-child(2){
+  color: gray;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.style-2 .fph span:nth-child(3){
+  color: green;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.style-2 .fph-label {
+    left: -120px;
+}
+
+.style-2 .fph-label span:nth-child(1){
+  color: powderblue;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.style-2 .fph-label span:nth-child(2){
+  color: peachpuff;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.style-2 .fph-label span:nth-child(3){
+  color: salmon;
+  padding-left: 2px;
+  padding-right: 2px;
+}
